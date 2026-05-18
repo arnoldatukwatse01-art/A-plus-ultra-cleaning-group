@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - A+plus Ultra-Cleaning Company</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold brand-text" href="index.html">A+plus Ultra-Cleaning</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="services.html">Services</a>
+          <a class="nav-link" href="products.html">Products</a>
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contact Hero -->
+  <section class="contact-hero text-center">
+    <div class="container">
+      <h1 class="contact-title">Get In Touch</h1>
+      <p class="contact-subtitle">Ready for a cleaner space? Request a free quote or ask us anything.</p>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <div class="container py-5">
+    <div class="row g-5">
+      
+      <!-- Contact Form -->
+      <div class="col-lg-7">
+        <div class="contact-card">
+          <h3 class="form-title">Request a Free Quote</h3>
+          <form action="mailto:info@apluscleaning.ug" method="post" enctype="text/plain">
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Full Name</label>
+                <input type="text" class="form-control" name="Name" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Phone Number</label>
+                <input type="tel" class="form-control" name="Phone" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" name="Email" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Service Needed</label>
+                <select class="form-select" name="Service">
+                  <option selected disabled>Select a service</option>
+                  <option>Garbage Collection</option>
+                  <option>Home Cleaning</option>
+                  <option>Office Cleaning</option>
+                  <option>Laundry Services</option>
+                  <option>Fumigation & Pest Control</option>
+                  <option>Cleaning Training</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" name="Message" rows="5" placeholder="Tell us about your cleaning needs..." required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-glow w-100">Send Request</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-lg-5">
+        <div class="info-card">
+          <h3 class="info-title">Contact Info</h3>
+          
+          <div class="info-item">
+            <h5>📍 Location</h5>
+            <p>Muyenga Bukasa, Plot 567<br>Kampala, Uganda</p>
+          </div>
+
+          <div class="info-item">
+            <h5>📞 Phone</h5>
+            <p><a href="tel:0740845055">0740 845 055</a></p>
+          </div>
+
+          <div class="info-item">
+            <h5>✉️ Email</h5>
+            <p><a href="mailto:info@apluscleaning.ug">info@apluscleaning.ug</a></p>
+          </div>
+
+          <div class="info-item">
+            <h5>🕒 Working Hours</h5>
+            <p>Mon - Sat: 8:00 AM - 6:00 PM<br>Sunday: Closed</p>
+          </div>
+
+          <div class="map-placeholder">
+            <p>📍 Find us on Google Maps</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-0">© 2025 A+plus Ultra-Cleaning Company. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

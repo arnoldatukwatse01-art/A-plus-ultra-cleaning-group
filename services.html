@@ -1,162 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - A+plus Ultra-Cleaning Group</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts: Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- External CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - A+plus Ultra-Cleaning Company</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">A<span class="text-info">+</span>plus Ultra-Cleaning</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active fw-bold" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold brand-text" href="index.html">A+plus Ultra-Cleaning company</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" href="services.html">Services</a>
+          <a class="nav-link" href="products.html">Products</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Header -->
-    <section class="bg-light py-5">
-        <div class="container text-center">
-            <h1 class="fw-bold">Our Services</h1>
-            <p class="text-muted">Professional cleaning solutions for homes and businesses in Muyenga Bukasa</p>
+  <!-- Services Hero -->
+  <section class="services-hero text-center">
+    <div class="container">
+      <h1 class="services-title">Our Services</h1>
+      <p class="services-subtitle">Professional cleaning solutions tailored for homes, offices, and industries in Muyenga & Kampala</p>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <div class="container py-5">
+    <div class="row g-4">
+
+      <!-- Service 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/garbage-collection.png" alt="Garbage Collection">
+          </div>
+          <div class="service-content">
+            <h3 class="service-name">Garbage Collection</h3>
+            <p>Reliable waste pickup and disposal for homes and businesses. Scheduled or on-demand service available.</p>
+            <span class="service-tag">Eco-Friendly</span>
+          </div>
         </div>
-    </section>
+      </div>
 
-    <!-- Services Grid -->
-    <section class="container my-5">
-        <div class="row g-4">
-            
-            <!-- Service 1 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-house-heart fs-1 mb-2"></i>
-                            <h5 class="fw-bold">Home Cleaning</h5>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-muted">Deep cleaning for houses, apartments, and flats. Kitchens, bathrooms, living rooms included.</p>
-                        <p class="fw-bold text-primary">From UGX 50,000</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 2 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-building fs-1 mb-2"></i>
-                            <h5 class="fw-bold">Office Cleaning</h5>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-muted">Daily, weekly, or monthly office cleaning. Keep your workspace professional and spotless.</p>
-                        <p class="fw-bold text-primary">From UGX 80,000</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 3 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-droplet-half fs-1 mb-2"></i>
-                            <h5 class="fw-bold">Post-Construction Cleaning</h5>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-muted">Remove dust, debris, and stains after construction or renovation work.</p>
-                        <p class="fw-bold text-primary">From UGX 150,000</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 4 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-stars fs-1 mb-2"></i>
-                            <h5 class="fw-bold">Carpet & Sofa Cleaning</h5>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-muted">Deep shampooing and stain removal for carpets, sofas, and mattresses.</p>
-                        <p class="fw-bold text-primary">From UGX 30,000</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 5 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-window fs-1 mb-2"></i>
-                            <h5 class="fw-bold">Window Cleaning</h5>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-muted">Streak-free window cleaning for homes, offices, and high-rise buildings.</p>
-                        <p class="fw-bold text-primary">From UGX 20,000</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Service 6 -->
-            <div class="col-md-6 col-lg-4">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-shield-check fs-1 mb-2"></i>
-                            <h5 class="fw-bold">Disinfection & Fumigation</h5>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <p class="card-text text-muted">Germ-killing disinfection and pest control services for safe spaces.</p>
-                        <p class="fw-bold text-primary">From UGX 70,000</p>
-                    </div>
-                </div>
-            </div>
-
+      <!-- Service 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/home-cleaning.png" alt="Home Cleaning">
+          </div>
+          <div class="service-content">
+            <h3 class="service-name">Home Cleaning</h3>
+            <p>Deep cleaning for kitchens, bathrooms, living rooms, and bedrooms. Leave the mess to us.</p>
+            <span class="service-tag">Deep Clean</span>
+          </div>
         </div>
-    </section>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/office-cleaning.png" alt="Office Cleaning">
+          </div>
+          <div class="service-content">
+            <h3 class="service-name">Office Cleaning</h3>
+            <p>Keep your workspace spotless and professional. Night and weekend cleaning available.</p>
+            <span class="service-tag">Commercial</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/laundry.png" alt="Laundry">
+          </div>
+          <div class="service-content">
+            <h3 class="service-name">Laundry Services</h3>
+            <p>Wash, dry, fold, and ironing services. We handle your clothes with care.</p>
+            <span class="service-tag">Fast Turnaround</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/fumigation.png" alt="Fumigation">
+          </div>
+          <div class="service-content">
+            <h3 class="service-name">Fumigation & Pest Control</h3>
+            <p>Safe and effective fumigation for homes, offices, and warehouses. Licensed professionals.</p>
+            <span class="service-tag">Licensed</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="service-card">
+          <div class="service-img-wrap">
+            <img src="images/training.png" alt="Training">
+          </div>
+          <div class="service-content">
+            <h3 class="service-name">Cleaning Training</h3>
+            <p>Professional training for housekeepers, cleaners, and facility staff. Get certified with us.</p>
+            <span class="service-tag">Certified</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
     <!-- CTA -->
-    <section class="bg-primary text-white py-5">
-        <div class="container text-center">
-            <h3 class="fw-bold">Need a custom service?</h3>
-            <p>Contact us for a free quote tailored to your needs</p>
-            <a href="contact.html" class="btn btn-light btn-lg fw-bold">Get in Touch</a>
-        </div>
-    </section>
+    <div class="text-center mt-5">
+      <h2 class="cta-text">Ready to Get Started?</h2>
+      <a href="contact.html" class="btn btn-glow">Book a Service</a>
+    </div>
+  </div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center p-4">
-        <p class="mb-0">&copy; 2026 A+plus Ultra-Cleaning Group | Muyenga Bukasa, Plot 567</p>
-    </footer>
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-0">© 2025 A+plus Ultra-Cleaning Company. All Rights Reserved.</p>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
