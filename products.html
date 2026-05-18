@@ -1,233 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products - A+plus Ultra-Cleaning Group</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts: Poppins -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- External CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - A+plus Ultra-Cleaning Company</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">A<span class="text-info">+</span>plus Ultra-Cleaning</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link active fw-bold" href="products.html">Products</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold brand-text" href="index.html">A+plus Ultra-Cleaning company</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="services.html">Services</a>
+          <a class="nav-link active" href="products.html">Products</a>
+          <a class="nav-link" href="contact.html">Contact</a>
         </div>
-    </nav>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Header -->
-    <section class="bg-light py-5">
-        <div class="container text-center">
-            <h1 class="fw-bold">Our Products</h1>
-            <p class="text-muted">All products branded A+plus Ultra-Cleaning Group</p>
+  <!-- Products Section -->
+  <div class="container py-5">
+    <h1 class="page-title text-center mb-5">Our Products</h1>
+
+    <!-- Cleaning Chemicals -->
+    <h3 class="category-title">Cleaning Chemicals</h3>
+    <div class="row g-4">
+      
+      <div class="col-md-4 col-lg-3">
+        <div class="card product-card h-100 shadow-sm">
+          <div class="product-img">
+            <img src="images/cleaning-chemicals.png" alt="Cleaning Chemicals">
+            <h6 class="fw-bold mt-2">Aplus Chemicals</h6>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Cleaning Chemicals</h5>
+            <p class="card-text text-muted">All-purpose cleaning chemicals for home and office.</p>
+          </div>
         </div>
-    </section>
+      </div>
 
-    <div class="container my-5">
-        
-        <!-- Cleaning Chemicals -->
-        <h3 class="category-title fw-bold">Cleaning Chemicals</h3>
-        <div class="row g-4">
-            
-            <div class="col-md-4 col-lg-3">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-droplet-fill fs-1 mb-2"></i>
-                            <h6 class="fw-bold">A+plus Liquid Soap</h6>
-                            <small>Jerrycans: 1L, 5L, 20L<br>Branded</small>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Liquid Soap</h5>
-                        <p class="card-text text-muted">Multi-purpose liquid soap for hands, dishes, laundry.</p>
-                        <span class="price-badge">UGX 15,000 / 5L</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-bucket-fill fs-1 mb-2"></i>
-                            <h6 class="fw-bold">A+plus Detergent</h6>
-                            <small>Buckets: 1kg, 2kg, 5kg<br>Branded</small>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Detergent Powder</h5>
-                        <p class="card-text text-muted">High foam detergent for clothes and surfaces.</p>
-                        <span class="price-badge">UGX 8,000 / 2kg</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-shield-fill-check fs-1 mb-2"></i>
-                            <h6 class="fw-bold">A+plus Disinfectant</h6>
-                            <small>Bottles: 500ml, 1L, 5L<br>Branded</small>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Disinfectant</h5>
-                        <p class="card-text text-muted">Kills 99.9% germs. For floors, toilets, surfaces.</p>
-                        <span class="price-badge">UGX 12,000 / 1L</span>
-                    </div>
-                </div>
-            </div>
+      <div class="col-md-4 col-lg-3">
+        <div class="card product-card h-100 shadow-sm">
+          <div class="product-img">
+            <img src="images/detergent-powder.png" alt="Detergent Powder">
+            <h6 class="fw-bold mt-2">Aplus Detergent</h6>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Detergent Powder</h5>
+            <p class="card-text text-muted">High foam detergent for clothes and surfaces.</p>
+            <span class="price-badge">UGX 12,000 / 2kg</span>
+          </div>
         </div>
+      </div>
 
-        <!-- Cleaning Tools -->
-        <h3 class="category-title fw-bold">Cleaning Tools</h3>
-        <div class="row g-4">
-            
-            <div class="col-md-4 col-lg-3">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-trash3-fill fs-1 mb-2"></i>
-                            <h6 class="fw-bold">A+plus Dustbins</h6>
-                            <small>Sizes: 10L, 20L, 50L<br>Branded</small>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Dustbins</h5>
-                        <p class="card-text text-muted">Plastic pedal dustbins. Durable for home & office.</p>
-                        <span class="price-badge">UGX 25,000 / 20L</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-brush-fill fs-1 mb-2"></i>
-                            <h6 class="fw-bold">A+plus Scrubbers</h6>
-                            <small>Heavy duty<br>Individual packs</small>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Scrubbers</h5>
-                        <p class="card-text text-muted">Heavy duty scrubbing pads for tough stains.</p>
-                        <span class="price-badge">UGX 3,000</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-water fs-1 mb-2"></i>
-                            <h6 class="fw-bold">A+plus Moppers</h6>
-                            <small>Microfiber heads<br>Reusable</small>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Moppers</h5>
-                        <p class="card-text text-muted">Microfiber mops for streak-free floor cleaning.</p>
-                        <span class="price-badge">UGX 18,000</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-window-dash fs-1 mb-2"></i>
-                            <h6 class="fw-bold">A+plus Squeegees</h6>
-                            <small>Window & floor<br>Rubber blade</small>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Squeegees</h5>
-                        <p class="card-text text-muted">Window and floor squeegees for quick water removal.</p>
-                        <span class="price-badge">UGX 10,000</span>
-                    </div>
-                </div>
-            </div>
+      <div class="col-md-4 col-lg-3">
+        <div class="card product-card h-100 shadow-sm">
+          <div class="product-img">
+            <img src="images/Disinfectants.png" alt="Disinfectant">
+            <h6 class="fw-bold mt-2">Aplus Disinfectant</h6>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Disinfectant</h5>
+            <p class="card-text text-muted">Kills 99.9% germs. Safe for floors and surfaces.</p>
+            <span class="price-badge">UGX 8,000 / 1L</span>
+          </div>
         </div>
-
-        <!-- Work Gear -->
-        <h3 class="category-title fw-bold">Work Gear / PPE</h3>
-        <div class="row g-4">
-            
-            <div class="col-md-4 col-lg-3">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-hand-thumbs-up-fill fs-1 mb-2"></i>
-                            <h6 class="fw-bold">A+plus Gloves</h6>
-                            <small>Rubber cleaning gloves<br>Branded</small>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Rubber Gloves</h5>
-                        <p class="card-text text-muted">Thick rubber gloves for hand protection.</p>
-                        <span class="price-badge">UGX 5,000</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-lg-3">
-                <div class="card product-card h-100">
-                    <div class="product-img">
-                        <div>
-                            <i class="bi bi-person-workspace fs-1 mb-2"></i>
-                            <h6 class="fw-bold">A+plus Overalls</h6>
-                            <small>Cleaner uniforms<br>Branded</small>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title fw-bold">Work Overalls</h5>
-                        <p class="card-text text-muted">Protective overalls for cleaners. Breathable fabric.</p>
-                        <span class="price-badge">UGX 35,000</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      </div>
     </div>
 
-    <!-- CTA -->
-    <section class="bg-primary text-white py-5">
-        <div class="container text-center">
-            <h3 class="fw-bold">Need bulk orders?</h3>
-            <p>Call us for wholesale prices on all A+plus branded products</p>
-            <a href="tel:0740845055" class="btn btn-light btn-lg fw-bold">
-                <i class="bi bi-telephone-fill"></i> 0740845055
-            </a>
+    <!-- Cleaning Tools -->
+    <h3 class="category-title">Cleaning Tools</h3>
+    <div class="row g-4">
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card product-card h-100 shadow-sm">
+          <div class="product-img">
+            <img src="images/Scrubbers.png" alt="Scrubbers">
+            <h6 class="fw-bold mt-2">Scrubbers</h6>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Scrubbers</h5>
+            <p class="card-text text-muted">Tough scrubbers for tiles and tough stains.</p>
+            <span class="price-badge">UGX 3,000 / piece</span>
+          </div>
         </div>
-    </section>
+      </div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center p-4">
-        <p class="mb-0">&copy; 2026 A+plus Ultra-Cleaning Group | Muyenga Bukasa, Plot 567</p>
-    </footer>
+      <div class="col-md-4 col-lg-3">
+        <div class="card product-card h-100 shadow-sm">
+          <div class="product-img">
+            <img src="images/moppers.png" alt="Moppers">
+            <h6 class="fw-bold mt-2">Moppers</h6>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Moppers</h5>
+            <p class="card-text text-muted">High absorbency microfiber mops for floors.</p>
+            <span class="price-badge">UGX 18,000 / set</span>
+          </div>
+        </div>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <div class="col-md-4 col-lg-3">
+        <div class="card product-card h-100 shadow-sm">
+          <div class="product-img">
+            <img src="images/Squeezers.png" alt="Squeezers">
+            <h6 class="fw-bold mt-2">Squeezers</h6>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Squeezers</h5>
+            <p class="card-text text-muted">Professional squeegees for windows and floors.</p>
+            <span class="price-badge">UGX 12,000 / piece</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-lg-3">
+        <div class="card product-card h-100 shadow-sm">
+          <div class="product-img">
+            <img src="images/work-gear.png" alt="Work Gear">
+            <h6 class="fw-bold mt-2">Work Gear</h6>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Work Gear</h5>
+            <p class="card-text text-muted">Safety gear for cleaning and fumigation work.</p>
+            <span class="price-badge">UGX 25,000 / set</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-0">© 2025 A+plus Ultra-Cleaning Company. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
